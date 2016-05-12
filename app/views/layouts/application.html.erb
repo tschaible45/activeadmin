@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "The Active Admin Store" %></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= yield(:head) %>
+</head>
+<body>
+    <div id="container">
+
+      <div id="flash_notice">
+        Welcome to the demo application of <a href='http://activeadmin.info'>ActiveAdmin</a>.
+        Go <a href='/admin'>try out the Administration interface</a>!
+        <a href="/admin/logout" data-confirm="Are you sure？" data-method="delete" rel="nofollow">Logout</a>
+      </div>
+
+ <h1><a href="/">The Active Admin Store</a></h1>
+     
+      <%= yield %>
+    </div>
+
+</body>
+</html>

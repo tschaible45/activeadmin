@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: 
+  phase: 
+  category_id: 
+  priority: 
+  effort: 
+  status: 
+  date_opened: 
+  opened_by_id: 
+  commit_date: 
+  assigned_to: 
+  related_kb: 
+  customer_id: 
+  comments: 
+  closed_date: 2015-12-18 20:36:33
+
+two:
+  title: 
+  phase: 
+  category_id: 
+  priority: 
+  effort: 
+  status: 
+  date_opened: 
+  opened_by_id: 
+  commit_date: 
+  assigned_to: 
+  related_kb: 
+  customer_id: 
+  comments: 
+  closed_date: 2015-12-18 20:36:33

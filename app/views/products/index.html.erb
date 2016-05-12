@@ -1,0 +1,9 @@
+<% @products.each do |product| %>
+  <div class="product">
+    <%= link_to image_tag("products/" + product.image_file_name), product_path(product) %>
+    <h2><%= link_to product.title, product_path(product) %></h2>
+  </div>
+   (<%= link_to "Add to Card", add_to_cart_path(product.id) %>)
+<% end %>
+
+<div style="clear:both"></div>
